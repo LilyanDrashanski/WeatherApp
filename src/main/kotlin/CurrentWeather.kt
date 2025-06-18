@@ -1,5 +1,8 @@
-import java.sql.Date
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class CurrentWeather(
-    val temperature: Int, val weatherDescription: Double, val windSpeed: Double, val date: Date
+    val count: Int,
+    val data: List<WeatherInfo>,
+//    val minutely: List<String>?
 )

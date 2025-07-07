@@ -1,3 +1,5 @@
+package weatherForecast
+
 import kotlinx.serialization.Serializable
 
 @Serializable
